@@ -133,6 +133,12 @@ section {
   font-size: 1.6rem;
 }
 
+.plant {
+  width: 200px;
+  position: relative;
+  align-self: flex-end;
+}
+
 .interests {
   display: flex;
   margin: 1rem 0;
@@ -191,6 +197,13 @@ section {
 
   .introText {
     font-size: 2rem;
+  }
+
+  .plant {
+    position: relative;
+    top: -40px;
+    margin-left: 2rem;
+    width: initial;
   }
 
   .circleOne {
@@ -252,5 +265,10 @@ section {
 
   .introText {
     font-size: 1.6rem;
+  }
+
+  .plant {
+    width: 40%;
+    align-self: flex-start;
   }
 }
