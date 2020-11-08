@@ -144,6 +144,16 @@ section {
   border: 2px solid #fff;
 }
 
+.squareTwo {
+  width: 200px;
+  position: relative;
+  align-self: flex-end;
+  left: 16px;
+  height: 100px;
+  width: 100px;
+  border: 2px solid #fff;
+}
+
 .interests {
   display: flex;
   margin: 1rem 0;
@@ -208,7 +218,17 @@ section {
     position: relative;
     top: -40px;
     margin-left: 10rem;
-    width: initial;
+    left: 16px;
+    top: 0;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+  }
+
+  .squareTwo {
+    position: relative;
+    top: -40px;
+    margin-left: 14rem;
     left: 16px;
     top: 0;
     height: 100px;
@@ -278,6 +298,16 @@ section {
   }
 
   .square {
+    width: 40%;
+    align-self: flex-start;
+    left: 16px;
+    top: 0;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+  }
+
+  .squareTwo {
     width: 40%;
     align-self: flex-start;
     left: 16px;
