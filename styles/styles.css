@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+object,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+ol,
+ul,
+li,
+article,
+aside,
+footer,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #f7e7d6;
+  color: #424242;
+  font-size: 1rem;
+}
+
+a {
+  color: #f5543a;
+}
+
+a:hover {
+  color: #464646;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+}
+
+.container {
+  position: relative;
+  padding: 0 2rem;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.sectionTitle {
+  margin-bottom: 1rem;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.introMe {
+  width: 100%;
+  margin-top: 2rem;
+  order: 1;
+}
+
+.introText {
+  font-size: 1.6rem;
+}
+
+.interests {
+  display: flex;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.interestSvg {
+  margin-right: 1rem;
+  height: 5rem;
+}
+
+/* Projects */
+.projects {
+  margin: 1rem 0;
+}
+
+.project {
+  margin-bottom: 1rem;
+}
+
+.projectTitle {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Contact */
+.contactListitem {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.circle {
+  position: absolute;
+  border-color: #fff;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    padding: 0 6rem;
+  }
+
+  section {
+    width: 60%;
+  }
+
+  .intro {
+    flex-direction: row;
+    margin: 3rem 0 1rem 0;
+  }
+
+  .introMe {
+    width: 60%;
+    margin-top: 2rem;
+    order: 0;
+  }
+
+  .introText {
+    font-size: 2rem;
+  }
+
+  .circleOne {
+    right: 10vw;
+    top: 55vh;
+    height: 120px;
+    width: 120px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+
+  .circleTwo {
+    left: 16px;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+
+  .circleThree {
+    right: 20vw;
+    top: 80vh;
+    height: 80px;
+    width: 80px;
+    border: 1.6px solid #fff;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1000px) {
+  .container {
+    padding: 0 3rem;
+  }
+
+  .introMe {
+    width: 80%;
+  }
+
+  .circleOne {
+    right: 100px;
+    top: 300px;
+    height: 120px;
+    width: 120px;
+    border: 2px solid #fff;
+  }
+
+  .circleThree {
+    right: 25vw;
+    top: 500px;
+    height: 80px;
+    width: 80px;
+    border: 1.2px solid #fff;
+  }
+
+  .circleTwo {
+    display: none;
+  }
+
+  .introText {
+    font-size: 1.6rem;
+  }
+}
